@@ -1,0 +1,70 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Mon May  1 09:55:39 2023                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/klu/Desktop/MYCAD/CORDIC_CORE/PostCTS.inn.dat cordic
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+zoomBox -29.07950 64.58050 323.86200 235.21500
+zoomBox -109.04600 17.38350 379.45550 253.55600
+zoomBox -159.89900 -12.63100 414.80900 265.21950
+zoomBox -33.69700 39.73300 266.30600 184.77350
+zoomBox -120.41050 3.34750 368.09500 239.52200
+zoomBox -249.82000 -32.53100 426.31250 294.35450
+setLayerPreference node_overlay -isVisible 1
+setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+fit
+setLayerPreference node_overlay -isVisible 0
+zoomBox -68.87750 48.64800 284.06450 219.28250
+zoomBox -47.00750 62.20950 252.99350 207.24900
+zoomBox -251.12100 -26.10900 544.32300 358.45900
+zoomBox -662.69450 -198.22100 1130.03800 668.50000
+zoomBox -207.45900 -41.10550 468.67050 285.77850
+zoomBox -21.27750 44.52650 195.47500 149.31850
+zoomBox 31.93150 74.07900 113.68050 113.60150
+zoomBox 53.21300 87.55000 84.04550 102.45650
+zoomBox 59.50300 91.08550 75.59950 98.86750
+zoomBox 63.48700 93.08300 70.63000 96.53650
+zoomBox 56.74750 89.70450 79.03350 100.47900
+zoomBox 40.36950 81.49350 99.46200 110.06250
+zoomBox 23.64650 72.98700 119.86900 119.50700
+zoomBox -30.98000 45.12950 185.88350 149.97500
+zoomBox -121.13600 -1.08250 294.30800 199.76950
+zoomBox -358.54800 -122.92050 577.76000 329.75050
+zoomBox -895.02500 -397.51250 1215.17950 622.69450
+zoomBox -413.43850 -97.27900 688.10250 435.27600
+fit
+setLayerPreference stdCell -isVisible 0
+setLayerPreference stdCell -isVisible 1
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/klu/Desktop/MYCAD/CORDIC_CORE/Placement.inn.dat cordic
+encMessage warning 1
+encMessage debug 0
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/klu/Desktop/MYCAD/CORDIC_CORE/Placement.inn.dat cordic
+encMessage warning 1
+encMessage debug 0

@@ -1,0 +1,11 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name RC_Corners -cap_table {../../../../install/FOUNDRY/digital/90nm/dig/captable/gpdk090.lef.extended.CapTbl} -T {125} -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {../../../../install/FOUNDRY/digital/90nm/dig/qrc/gpdk090_9l.tch}
+create_library_set -name Min_timing_lib -timing {../../../../install/FOUNDRY/digital/90nm/dig/lib/slow.lib}
+create_library_set -name Max_timing_lib -timing {../../../../install/FOUNDRY/digital/90nm/dig/lib/fast.lib}
+create_constraint_mode -name SDC_Constraints -sdc_files {CORDIC_output.sdc}
+create_delay_corner -name Min_delay_corner -library_set {Min_timing_lib} -rc_corner {RC_Corners}
+create_delay_corner -name Max_delay_corner -library_set {Max_timing_lib} -rc_corner {RC_Corners}
+create_analysis_view -name BC -constraint_mode {SDC_Constraints} -delay_corner {Min_delay_corner}
+create_analysis_view -name WC -constraint_mode {SDC_Constraints} -delay_corner {Max_delay_corner}
+set_analysis_view -setup {BC} -hold {WC}

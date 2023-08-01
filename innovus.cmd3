@@ -1,0 +1,224 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Mon May  1 10:01:42 2023                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/klu/Desktop/MYCAD/CORDIC_CORE/PostCTS.inn.dat cordic
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+setDrawView place
+checkDesign -all
+help
+zoomBox -40.07250 86.57950 234.59300 209.86350 designview.win
+zoomBox -182.05950 -13.53050 436.96900 264.32150 designview.win
+zoomBox -415.77550 -178.31550 770.08800 353.96150 designview.win
+zoomBox -502.06150 -239.15250 893.07300 387.05600 designview.win
+zoomBox -603.57400 -310.72550 1037.76050 425.99050 designview.win
+zoomBox -284.59600 -80.60250 572.19150 303.96800 designview.win
+zoomBox -90.81150 59.20100 289.35050 229.83750 designview.win
+zoomBox -4.82800 121.23250 163.85250 196.94500 designview.win
+zoomBox 33.32200 148.75550 108.16850 182.35050 designview.win
+zoomBox 50.24950 160.96800 83.46100 175.87500 designview.win
+zoomBox 56.70350 165.62400 74.04000 173.40550 designview.win
+zoomBox 45.06150 157.22550 91.03150 177.85900 designview.win
+zoomBox 21.62700 140.31950 125.23350 186.82350 designview.win
+zoomBox -4.84150 121.22450 163.86500 196.94850 designview.win
+zoomBox -78.02200 74.92350 245.16850 219.98800 designview.win
+zoomBox -176.39550 14.93500 349.86650 251.14850 designview.win
+zoomBox -388.41100 -84.61700 468.52000 300.01800 designview.win
+zoomBox -12.03450 93.76900 262.63000 217.05250 designview.win
+zoomBox -145.84850 16.08200 380.32450 252.25550 designview.win
+zoomBox -6.77600 -5.43700 19.19650 8.35900 .uiCellView.win
+zoomBox -9.54600 -6.58000 21.01000 9.65050 .uiCellView.win
+zoomBox 0.68550 -2.40200 14.24350 4.79950 .uiCellView.win
+zoomBox 5.21650 -0.54900 11.23250 2.64650 .uiCellView.win
+zoomBox 7.41450 0.39800 9.68450 1.60400 .uiCellView.win
+zoomBox 8.07150 0.73150 9.08000 1.26700 .uiCellView.win
+zoomBox 8.20450 0.84250 8.82400 1.17150 .uiCellView.win
+zoomBox 7.83450 0.55550 9.47950 1.42950 .uiCellView.win
+zoomBox 8.10500 0.85000 8.72650 1.18000 .uiCellView.win
+zoomBox 8.21150 0.97300 8.41150 1.07900 .uiCellView.win
+zoomBox 8.24200 1.00900 8.31900 1.05000 .uiCellView.win
+zoomBox 8.25450 1.02400 8.28000 1.03750 .uiCellView.win
+zoomBox 8.25700 1.02800 8.26850 1.03400 .uiCellView.win
+zoomBox 8.24850 1.01850 8.29200 1.04150 .uiCellView.win
+zoomBox 8.23350 1.00150 8.33350 1.05450 .uiCellView.win
+zoomBox 8.19000 0.95200 8.45650 1.09350 .uiCellView.win
+zoomBox 8.12650 0.87900 8.63850 1.15100 .uiCellView.win
+zoomBox 7.90950 0.62850 9.26800 1.35000 .uiCellView.win
+zoomBox 7.47350 0.12400 10.53650 1.75100 .uiCellView.win
+zoomBox 6.49200 -1.01250 13.39600 2.65450 .uiCellView.win
+zoomBox 2.77950 -5.27700 24.31950 6.16450 .uiCellView.win
+zoomBox -6.24200 -15.64150 50.87100 14.69550 .uiCellView.win
+zoomBox -3.31100 -10.87650 37.95400 11.04250 .uiCellView.win
+zoomBox -3.44150 -1.75750 8.74050 4.71350 .uiCellView.win
+zoomBox -6.17200 -3.53500 13.66550 7.00200 .uiCellView.win
+zoomBox -4.05300 -2.36000 10.27950 5.25300 .uiCellView.win
+zoomBox -2.81000 -2.78550 13.00850 5.61700 .uiCellView.win
+zoomBox -3.23950 -0.62450 4.24150 3.34900 .uiCellView.win
+zoomBox -4.18400 -1.30900 6.17100 4.19150 .uiCellView.win
+zoomBox -3.24050 -0.62550 4.24200 3.34900 .uiCellView.win
+zoomBox -0.89550 -1.58800 10.01400 4.20700 .uiCellView.win
+zoomBox -0.09600 -0.87850 7.78650 3.30850 .uiCellView.win
+zoomBox -0.94850 -0.58250 7.44050 3.87350 .uiCellView.win
+zoomBox -1.89600 -0.97500 9.71500 5.19250 .uiCellView.win
+zoomBox -0.92250 -0.58300 7.46750 3.87350 .uiCellView.win
+zoomBox -3.21350 -2.62000 10.44950 4.63750 .uiCellView.win
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+setDelayCalMode -engine default -siAware true
+optDesign -postRoute
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+setDelayCalMode -engine default -siAware true
+optDesign -postRoute
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+setDelayCalMode -engine default -siAware true
+optDesign -postRoute
+setOptMode -fixCap false -fixTran false -fixFanoutLoad false
+optDesign -postCTS
+zoomBox -15.52050 35.23950 239.47950 158.52250
+zoomBox 48.53950 56.47850 161.68550 111.18050
+zoomBox 77.19050 65.61600 136.25450 94.17150
+zoomBox 91.92550 70.28400 122.75800 85.19050
+zoomBox 99.61650 72.72100 115.71200 80.50250
+zoomBox 85.74100 68.32450 128.42000 88.95800
+zoomBox 65.34250 61.86150 147.10300 101.38950
+zoomBox 26.26450 49.48050 182.89300 125.20450
+zoomBox -19.59900 34.60950 235.44350 157.91350
+zoomBox -93.99200 -15.11400 321.30300 185.66600
+zoomBox -272.76900 -129.03600 522.80600 255.59550
+zoomBox -511.05500 -268.76500 784.40650 357.54350
+zoomBox -899.20150 -495.87700 1210.24150 523.96200
+zoomBox -388.46900 -181.19100 712.67450 351.17200
+zoomBox -97.47650 6.29650 391.10850 242.50950
+zoomBox 13.46550 77.77650 268.51050 201.08150
+zoomBox 47.08650 99.43850 231.35700 188.52650
+zoomBox -62.66450 28.72600 352.63650 229.50900
+setLayerPreference node_overlay -isVisible 1
+setLayerPreference congestH -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+setLayerPreference congestV -color {#000066 #0000c9 #0053ff #00fcfa #00a953 #53a900 #f9fc00 #ff5300 #ff5858 #ffffff}
+fit
+setLayerPreference node_overlay -isVisible 0
+setLayerPreference node_track -isVisible 1
+setLayerPreference node_track -isVisible 0
+setLayerPreference node_net -isVisible 0
+setLayerPreference node_net -isVisible 1
+setLayerPreference node_route -isVisible 0
+setLayerPreference node_route -isVisible 1
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_cell -isVisible 1
+setLayerPreference node_cell -isVisible 0
+setLayerPreference node_cell -isVisible 1
+setLayerPreference allLayers -isSelectable 0
+setLayerPreference allLayers -isSelectable 1
+setLayerPreference allLayers -isVisible 0
+setLayerPreference allLayers -isVisible 1
+setLayerPreference block -isVisible 0
+setLayerPreference block -isVisible 1
+setLayerPreference stdCell -isVisible 0
+setLayerPreference stdCell -isVisible 1
+setLayerPreference coverCell -isVisible 0
+setLayerPreference coverCell -isVisible 1
+setLayerPreference phyCell -isVisible 0
+setLayerPreference phyCell -isVisible 1
+setLayerPreference io -isVisible 0
+setLayerPreference io -isVisible 1
+setLayerPreference areaIo -isVisible 0
+setLayerPreference areaIo -isVisible 1
+setLayerPreference blackBox -isVisible 0
+setLayerPreference blackBox -isVisible 1
+setLayerPreference Metal9 -isVisible 0
+setLayerPreference Metal9 -isVisible 1
+zoomBox 41.79500 66.16450 341.79500 211.20350
+zoomBox 115.48050 122.96450 248.59300 187.31950
+zoomBox 41.82000 66.16300 341.82300 211.20350
+zoomBox -17.34950 18.66850 471.15650 254.84350
+zoomBox 67.94950 87.13750 284.70350 191.93000
+zoomBox 110.32550 121.15200 192.07500 160.67500
+zoomBox 126.30700 133.98050 157.13950 148.88700
+zoomBox 132.34250 138.81900 143.97200 144.44150
+zoomBox 134.38450 140.44800 139.54550 142.94300
+zoomBox 135.23500 141.08000 137.92950 142.38250
+zoomBox 132.88500 139.28450 142.77450 144.06550
+zoomBox 126.04000 134.05350 156.89150 148.96900
+zoomBox 113.40950 124.40000 182.94100 158.01600
+zoomBox 84.94400 102.64400 241.65300 178.40700
+zoomBox -169.66100 -91.94300 766.79950 360.80150
+zoomBox -553.02150 -384.93550 1557.52500 635.43700
+zoomBox -1399.51700 -1182.10550 3357.12300 1117.55700
+zoomBox -464.21650 -371.51200 1329.74800 495.80450
+setDrawView ameba
+setDrawView fplan
+ui_view_box
+ui_view_box
+dbquery -area {-464.2165 -371.512 1329.748 495.8045} -objType inst
+dbquery -area {-464.2165 -371.512 1329.748 495.8045} -objType regular
+dbquery -area {-464.2165 -371.512 1329.748 495.8045} -objType special
+ui_view_box
+ui_view_box
+dbquery -area {-464.2165 -371.512 1329.748 495.8045} -objType inst
+dbquery -area {-464.2165 -371.512 1329.748 495.8045} -objType regular
+dbquery -area {-464.2165 -371.512 1329.748 495.8045} -objType special
+setDrawView place
+fit
+zoomBox -50.12500 82.72450 204.87500 206.00750
+zoomBox 0.79950 126.91000 113.94450 181.61150
+zoomBox -66.17000 69.50050 233.83500 214.54200
+zoomBox -203.91100 -30.13850 472.22450 296.74850
+zoomBox -435.36200 -178.36100 859.90100 447.85150
+zoomBox -155.89550 27.88050 418.82050 305.73500
+zoomBox -17.06000 130.34000 199.69500 235.13300
+zoomBox 38.95450 166.70850 120.70500 206.23200
+zoomBox 60.90800 179.62900 91.74000 194.53500
+zoomBox 68.31350 183.93950 81.99450 190.55400
+zoomBox 67.28950 183.39900 83.38550 191.18100
+zoomBox 66.08450 182.76350 85.02200 191.91900
+zoomBox 46.40550 170.96300 96.61950 195.23950
+zoomBox 19.30700 157.91600 115.50350 204.42350
+zoomBox -71.98700 120.29900 183.07500 243.61200
+zoomBox -255.43550 45.88100 319.41150 323.79850
+zoomBox -117.91600 113.10700 235.11200 283.78300
+zoomBox 2.65550 171.79800 159.29700 247.52850
+zoomBox 56.17000 197.83950 125.67350 231.44200
+zoomBox 80.50550 208.87050 111.34650 223.78100
+zoomBox 86.24850 210.93900 108.53150 221.71200
+zoomBox 76.93750 207.58600 113.22150 225.12800
+zoomBox 59.80350 201.57500 118.88650 230.13950
+zoomBox 68.31950 203.96750 118.54000 228.24750
+zoomBox 53.80850 198.33050 123.31850 231.93600
+zoomBox 44.58100 194.74550 126.35750 234.28150
+zoomBox -11.75000 172.86150 144.90900 248.60050
+ui_view_box
+ui_view_box
+dbquery -area {-11.75 172.8615 144.909 248.6005} -objType inst
+dbquery -area {-11.75 172.8615 144.909 248.6005} -objType regular
+dbquery -area {-11.75 172.8615 144.909 248.6005} -objType special
+saveNetlist cordicfinalnetlist.v
+summaryReport -noHtml -outfile summaryReport.rpt
+zoomBox 22.16450 192.23600 118.37350 238.74950
+zoomBox -45.55950 154.06700 171.27200 258.89700
+streamOut CORDIC.gds -libName DesignLib -units 2000 -mode ALL
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress
+get_message -id GLOBAL-100 -suppress

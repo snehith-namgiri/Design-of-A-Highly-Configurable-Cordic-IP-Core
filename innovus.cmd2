@@ -1,0 +1,82 @@
+#######################################################
+#                                                     
+#  Innovus Command Logging File                     
+#  Created on Mon May  1 09:58:56 2023                
+#                                                     
+#######################################################
+
+#@(#)CDS: Innovus v21.15-s110_1 (64bit) 09/23/2022 13:08 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: NanoRoute 21.15-s110_1 NR220912-2004/21_15-UB (database version 18.20.592) {superthreading v2.17}
+#@(#)CDS: AAE 21.15-s039 (64bit) 09/23/2022 (Linux 3.10.0-693.el7.x86_64)
+#@(#)CDS: CTE 21.15-s038_1 () Sep 20 2022 11:42:13 ( )
+#@(#)CDS: SYNTECH 21.15-s012_1 () Sep  5 2022 10:25:51 ( )
+#@(#)CDS: CPE v21.15-s076
+#@(#)CDS: IQuantus/TQuantus 21.1.1-s867 (64bit) Sun Jun 26 22:12:54 PDT 2022 (Linux 3.10.0-693.el7.x86_64)
+
+set_global _enable_mmmc_by_default_flow      $CTE::mmmc_default
+suppressMessage ENCEXT-2799
+getVersion
+win
+encMessage warning 0
+encMessage debug 0
+is_common_ui_mode
+restoreDesign /home/klu/Desktop/MYCAD/CORDIC_CORE/Placement.inn.dat cordic
+setDrawView fplan
+encMessage warning 1
+encMessage debug 0
+zoomBox -651.23300 -195.90550 644.01050 430.29750
+zoomBox -379.96050 -86.69200 415.48100 297.87500
+fit
+zoomBox -12.38600 82.02250 287.61350 227.06150
+zoomBox -214.35950 -47.57500 461.76650 279.30750
+zoomBox -133.56400 65.22500 281.66250 265.97200
+zoomBox -214.36000 -47.57550 461.76750 279.30750
+zoomBox -119.55200 17.12400 295.67500 217.87100
+zoomBox -262.78900 -51.12200 413.33950 275.76150
+setLayerPreference node_layer -isVisible 0
+setLayerPreference node_layer -isVisible 1
+setLayerPreference node_layer -isVisible 0
+zoomBox -16.36800 49.35050 336.57600 219.98600
+zoomBox 108.91650 101.69650 293.15700 190.77000
+zoomBox 150.51250 120.46350 263.65950 175.16600
+zoomBox 82.54150 91.74250 299.29600 196.53550
+zoomBox -8.28300 53.82400 344.66700 224.46250
+zoomBox -161.50900 -7.92000 413.21150 269.93650
+fit
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setUsefulSkewMode -noBoundary false -maxAllowedDelay 1
+setRouteMode -earlyGlobalHonorMsvRouteConstraint false -earlyGlobalRoutePartitionPinGuide true
+setEndCapMode -reset
+setEndCapMode -boundary_tap false
+setUsefulSkewMode -noBoundary false -maxAllowedDelay 1
+setPlaceMode -fp false
+place_design
+setLayerPreference node_layer -isVisible 1
+zoomBox -107.59350 3.38850 380.90600 239.56000
+setLayerPreference instanceFunction -isVisible 0
+setLayerPreference instanceFunction -isVisible 1
+zoomBox 77.92950 64.70250 332.92950 187.98550
+setDrawView fplan
+setDrawView fplan
+setDrawView place
+zoomBox 125.44150 100.38150 282.04400 176.09300
+zoomBox 30.63550 29.18800 383.57950 199.82350
+zoomBox -97.37400 -76.86100 578.75750 250.02400
+zoomBox -143.43700 -115.53350 652.01250 269.03750
+zoomBox -93.66200 -39.74200 481.05050 238.11050
+zoomBox -74.22250 -10.14250 414.28300 226.03200
+setLayerPreference node_layer -isSelectable 0
+setLayerPreference node_layer -isSelectable 1
+setLayerPreference node_layer -isVisible 0
+zoomBox 6.55850 31.10400 359.50450 201.74050
+zoomBox 65.76950 77.37550 282.52200 182.16750
+zoomBox 91.91900 97.81050 248.52350 173.52300
+zoomBox -52.37850 -14.95350 436.13000 221.22250
+zoomBox -319.41900 -222.93900 781.55850 309.34350
+zoomBox -120.15650 -96.22850 555.98250 230.66000
+zoomBox -72.58700 -65.97900 502.13100 211.87600
+zoomBox -32.15300 -40.26750 456.35750 195.90950
+zoomBox 31.42950 0.16450 384.37850 170.80250
+zoomBox -71.92050 -66.77950 502.79800 211.07600
